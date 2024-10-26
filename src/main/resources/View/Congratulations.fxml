@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane styleClass="background-congratulation" stylesheets="@Stylesheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <center>
+      <Label styleClass="congratulation" stylesheets="@Stylesheet.css" text="Thank You For Playing!" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import java.lang.String?>
+<AnchorPane stylesheets="@Stylesheet.css" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Controller.HelpController">
+   <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                 <Label style="-fx-font-size: 30px; -fx-font-weight: bold;" text="How to Play" />
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" prefHeight="280.0" prefWidth="400.0">
+            <children>
+               <VBox prefHeight="200.0" prefWidth="300.0">
+                  <children>
+                       <VBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="10.0">
+                        <children>
+                            <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Controls:" />
+                        </children>
+                       </VBox>
+                     <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                        <children>
+                            <Label style="-fx-font-size: 20;" text="E:  Interact" />
+                            <Label style="-fx-font-size: 20;" text="W: Walk Forward" />
+                            <Label style="-fx-font-size: 20;" text="A: Walk Left" />
+                            <Label style="-fx-font-size: 20;" text="S: Walk Down" />
+                            <Label style="-fx-font-size: 20;" text="D: Walk Right" />
+                            <Label style="-fx-font-size: 20;" text="F: Toggle Flashlight" />
+                            <Label style="-fx-font-size: 20;" text="Cursor: Aim" />
+                            <Label style="-fx-font-size: 20;" text="Left-Click: Shoot" />
+                        </children>
+                        <padding>
+                           <Insets left="20.0" top="10.0" />
+                        </padding>
+                     </VBox>
+                  </children>
+               </VBox>
+                <VBox alignment="TOP_CENTER" prefWidth="300.0" spacing="20">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Goal:" />
+                    <Label style="-fx-font-size: 20;" text="Escape the Compound" />
+
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Hint:" />
+                    <Label style="-fx-font-size: 20;" text="Read the Notes for Clues" />
+                  <HBox.margin>
+                     <Insets top="15.0" />
+                  </HBox.margin>
+                </VBox>
+            </children>
+         </HBox>
+         <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <Button alignment="CENTER" onAction="#handleBackButton" prefHeight="40.0" prefWidth="150.0" text="Back">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                    <styleClass>
+                        <String fx:value="custom-button" />
+                    </styleClass>
+               </Button>
+            </children>
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+         </VBox>
+      </children>
+   </VBox>
+
+
+</AnchorPane>

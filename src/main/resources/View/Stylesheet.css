@@ -1,0 +1,44 @@
+.background-home {
+    -fx-background-image: url("../Assets/Background/concreteBack.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.background-death {
+    -fx-background-color: black;
+}
+
+.background-congratulation {
+    -fx-background-color: lightgray;
+}
+
+.death {
+    -fx-text-fill: #b80e0e;
+    -fx-font-size: 72px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.congratulation {
+    -fx-text-fill: black;
+    -fx-font-size: 72px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.custom-button {
+    -fx-font-size: 24px;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+.custom-button:hover {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
